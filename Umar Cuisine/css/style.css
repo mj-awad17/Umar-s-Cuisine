@@ -4,6 +4,19 @@
   box-sizing: border-box;
   text-align: center;
 }
+#text-logo > img {
+  width: auto;
+  height: 100px;
+  margin: 16px 0;
+}
+
+.index-images > img {
+  width: 350px;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 2%;
+}
+
 /* navigator */
 #links {
   margin: 20px 0;
@@ -38,10 +51,19 @@ td {
 }
 
 /* contact */
-textarea{
+textarea {
   text-align: left;
 }
-button{
+button {
   margin-bottom: 20px;
   padding: 0 5px;
+}
+/* menu */
+.food {
+  margin: 15px 0;
+}
+
+.burger-img > img,
+.piza-img > img {
+  height: 120px;
 }
